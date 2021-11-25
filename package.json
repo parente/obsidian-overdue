@@ -1,5 +1,5 @@
 {
-	"name": "overdue",
+	"name": "obsidian-overdue",
 	"version": "0.1.0",
 	"description": "Marks items as [[Overdue]] if they are not checked off by their due date",
 	"main": "main.js",
