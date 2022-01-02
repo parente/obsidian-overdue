@@ -15,7 +15,7 @@ For instance, say you have items like the following:
 - [ ] Something else I forgot about [[2020-02-15]]
 ```
 
-When the plugin runs, it will make the following changes:
+When the plugin runs any time after January 1st, 2020 *local time*, it will make the following changes:
 
 ```markdown
 # In file 2020-01-01.md
