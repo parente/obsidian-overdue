@@ -1,6 +1,11 @@
-# Obsidian Overdue Plugin
+# Obsidian Plugin - Overdue
 
 This plugin marks checkbox items as `[[Overdue]]` if you do not check them off by their due date.
+
+[![BuyMeACoffee](https://raw.githubusercontent.com/pachadotdev/buymeacoffee-badges/main/bmc-yellow.svg)](https://www.buymeacoffee.com/parente)
+
+## Usage
+
 For instance, say you have items like the following:
 
 ```markdown
@@ -15,7 +20,7 @@ For instance, say you have items like the following:
 - [ ] Something else I forgot about [[2020-02-15]]
 ```
 
-When the plugin runs any time after January 1st, 2020 *local time*, it will make the following changes:
+When the plugin runs any time after January 1st, 2020 _local time_, it will make the following changes:
 
 ```markdown
 # In file 2020-01-01.md
@@ -44,8 +49,8 @@ backlinks.
 cd /path/to/vault/.obsidian/plugins
 git clone git@github.com:parente/overdue.git
 npm i
+npm run lint
 npm run dev
-eslint main.ts
 ```
 
 See https://github.com/obsidianmd/obsidian-sample-plugin for additional details.
