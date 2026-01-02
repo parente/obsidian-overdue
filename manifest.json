@@ -6,5 +6,6 @@
   "description": "Marks items as [[Overdue]] if they are not checked off by their due date",
   "author": "Peter Parente",
   "authorUrl": "https://github.com/parente",
+  "fundingUrl": "https://buymeacoffee.com/parente",
   "isDesktopOnly": false
 }
